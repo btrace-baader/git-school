@@ -3,6 +3,20 @@
 The dollar sign followed by a white-space `$ ` is used to indicate
 a command-line prompt.
 
+## Configure Git and Clone repository
+
+Set minimum configuration to get started
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+Clone a project from a remote repository.
+```
+$ git clone <url>/<projectname> # clone into directory <projectname>
+$ git clone <url>/<projectnam> <targetdir> # clones into target directory
+```
+
 ## Operating on the Staging-Area
 
 Show current status of the staging area. See `git status` message for
